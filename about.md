@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
 I'm a junior developer currently working at [Cozy](https://cozy.co/).

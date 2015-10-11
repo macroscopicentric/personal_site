@@ -1,47 +1,25 @@
-# Site settings
 title: Macroscopicentric
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: magpieohmy
-github_username:  macroscopicentric
-
-# Build settings
-markdown: kramdown
-
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "macroscopicentric.github.io" # the base hostname & protocol for your site.
-title: "macroscopicentric-blog"
-
-
-paginate: 3 #articles per page
-paginate_path: /blog/page:num #makes pagination working
-
-
-#contacts
-git: "https://github.com/macroscopicentric"  #Add your github url here.
-twitter: "https://twitter.com/magpieohmy"  #Add your twitter url here.
-
-# This is used by feed.xml. Uncomment if you want to use it.
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Hi, I'm Rachel, a recovering Pythonista who now primarily works in the wild
   wild west land that is Ruby.
 
-exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-permalink: :title
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+url: http://macroscopicentric.github.com/personal_site
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+
+social:
+   github: macroscopicentric
+   twitter: magpieohmy
+
+google_analytics: ""
