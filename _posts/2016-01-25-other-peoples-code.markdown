@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Other People's Code"
-date:   2016-01-24 22:08:00
+date:   2016-01-25 22:08:00
 categories: tutorial
 ---
 
