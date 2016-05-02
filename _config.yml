@@ -16,7 +16,7 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about.html
+   url: /about
 
 social:
    github: macroscopicentric
