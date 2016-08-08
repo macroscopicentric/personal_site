@@ -3,23 +3,30 @@ description: >
   Hi, I'm Rachel, a recovering Pythonista who now primarily works in the wild
   wild west land that is Ruby.
 
-url: http://macroscopicentric.github.com/personal_site
+url: http://macroscopicentric.net
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
+author: magpieohmy
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
 
 markdown: kramdown
 highlighter: rouge
 paginate: 5
 
 navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: RSS
+    url: /feed.xml
 
 social:
-   github: macroscopicentric
-   twitter: magpieohmy
+  github: macroscopicentric
+  twitter: magpieohmy
 
 google_analytics: ""
