@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Other People's Code"
 date:   2016-01-25 22:08:00
-categories: tutorial
+categories: intro_to_programming
 ---
 
 Including other people's code in your program means you don't have to write everything from scratch. You don't have to solve every problem on your own, and it's often faster and more efficient to use something off the shelf. There are three ways to include other people's code in what you're doing.

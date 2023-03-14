@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "What is Object-Oriented Programming?"
+date:   2016-01-23 16:17:00
+categories: intro_to_programming
+---
+
 # Configuration Management for Beginners
 ## Using Chef as an Example
 

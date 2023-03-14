@@ -2,7 +2,7 @@
 layout: post
 title:  "Educational Resources for Beginners in Python"
 date:   2016-01-24 11:13:00
-categories: resources
+categories: intro_to_programming
 ---
 
 This list is mostly Python-specific since that's how I learned to program, but some of these resources are language-agnostic. Feel free to try some out and then drop them if they don't work for you! The important thing is that you're learning, so find a learning tool that fits your style and needs.

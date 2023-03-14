@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Object-Oriented Programming?"
 date:   2016-01-23 16:17:00
-categories: tutorial
+categories: intro_to_programming
 ---
 
 Object-oriented programming is the idea that data has its own identity and methods so it can do things for itself, instead of a workflow where functions do things _to_ the data. The main goal here is delegation: you can tell an object what you want it to do, but you don't have to worry about the details of *how* it will accomplish what you want. This allows you to decouple (remove unnecessary dependencies) your code. Decoupling your code means you can change the implementation of an object's method without needing to change the code calling that method, and vice versa. (If you found this explanation confusing, here's a [Quora post](https://www.quora.com/What-is-object-oriented-programming?share=1) that tries to answer the same question.)

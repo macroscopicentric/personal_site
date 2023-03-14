@@ -2,7 +2,7 @@
 layout: post
 title:  "On Rabbit Holes and Reinventing the Wheel"
 date:   2016-01-24 19:16:00
-categories: tutorial
+categories: process
 ---
 
 Learning to program is not a linear process. There are a _lot_ of things to learn. It's hard to decide what to focus on. The first thing to realize is that you cannot learn everything. There will always be more to learn. It doesn't matter how experienced you become. Knowing that, the key is prioritizing what you want to learn. Some things are important for everyone to know. Know your tools. Know your text editor, whichever one you choose. Learn how git works. Get comfortable with a package manager for your language. You don't need to do these things immediately, but keep an eye on your progress. If your lack of knowledge about git (or whatever it is) starts substantially slowing down your ability to code, think about dedicating some time to learning your tools.

@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Command-Line Unix Tools"
 date:   2016-09-01 22:23:48
-categories: tutorial
+categories: how_things_work
 ---
 I'm relatively new to Unix tools, and when I began, I was frustrated because I felt like the only way I knew how to find new tools was to ask people with more experience. The goal of this post is to provide some starting places if you'd like to learn more about what you can do on the command line, but it's not intended to be an exhaustive list.
 
