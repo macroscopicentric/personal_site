@@ -18,7 +18,7 @@ PROMPT="%B%F{magenta}%1/%f%b 👑 "
 
 ```
 
-Here I initiate bolded and magenta-colored text ("%B%F{magenta}"), then print one directory out of my working directory, using an absolute path regardless of whether I'm inside my home directory ("%1/"), then undo the magenta color and bolding ("%f%b").
+Here I initiate bolded and magenta-colored text (`%B%F{magenta}`), then print one directory out of my working directory, using an absolute path regardless of whether I'm inside my home directory (`%1/`), then undo the magenta color and bolding (`%f%b`).
 
 Next I wanted to replicate the git-related part of my bash prompt. Here zsh is, again, more sophisticated than bash, and has a bunch of basic out-of-the-box git functionality. If you just want to display your branch name and/or dirty state, zsh can do it right out of the box. I found [git's own documentation of how to display git info in the zsh prompt](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh) super helpful, and it also linked directly to [another section of the zsh docs on zsh and version control systems](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information). After some trial and error (and more help from other people's blog posts), I had this:
 
