@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Educational Resources for Beginners in Python"
 date:   2016-01-24 11:13:00
 categories: intro_to_programming

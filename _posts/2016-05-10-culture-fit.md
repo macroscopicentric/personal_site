@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Unconscious Bias and Implicit Culture Fit"
 date:   2016-05-10 11:04:15
 categories: diversity_in_tech

@@ -1,0 +1,26 @@
+{
+    "author": "magpieohmy",
+    "description": "Hi, I'm Rachel, a software engineer with a soft spot for wordplay and modern sci fi.",
+    "navigation": [
+        {
+            "title": "Home",
+            "url": "/index.html"
+        },
+        {
+            "title": "About",
+            "url": "/about"
+        },
+        {
+            "title": "RSS",
+            "url": "/atom.xml"
+        }
+    ],
+    "social": {
+        "github": "macroscopicentric",
+        "mastodon": "recurse.social/@magpieohmy",
+        "twitter": "magpieohmy"
+    },
+    "title": "Macroscopicentric",
+    "baseurl": "",
+    "url": "http://macroscopicentric.net"
+}

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Using Other People's Code"
 date:   2016-01-25 22:08:00
 categories: intro_to_programming

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Things I've Learned About Twitter"
 date:   2016-05-02 17:48:15
 categories: tutorial

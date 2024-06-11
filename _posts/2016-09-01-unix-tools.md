@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "An Introduction to Command-Line Unix Tools"
 date:   2016-09-01 22:23:48
 categories: how_things_work

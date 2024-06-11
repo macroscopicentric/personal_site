@@ -1,0 +1,21 @@
+{
+  "name": "personal_site",
+  "description": "Personal blog and some toy scripts",
+  "main": "index.js",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass assets/scss:_site/assets/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.77.4"
+  }
+}

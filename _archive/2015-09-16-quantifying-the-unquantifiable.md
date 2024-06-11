@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Buzzwords, Quantifying the Unquantifiable, and Toxic Environments"
 date:   2015-09-16 22:00:48
 categories: diversity_in_tech

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "How to Support Diversity Advocates within Your Company"
 date:   2015-04-15 22:00:48
 categories: diversity_in_tech
