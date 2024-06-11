@@ -1,6 +1,6 @@
 ---
-title:  "Zsh Prompt Editing"
-date:   2023-03-14 17:53:00
+title: "Zsh Prompt Editing"
+date: 2023-03-14 17:53:00
 categories: how_things_work
 ---
 
