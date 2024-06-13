@@ -40,8 +40,7 @@ img,video,audio,iframe,object{
 
 // Layout
 .container {
-	@include container(610px);
-	padding: 0 20px;
+	display: grid
 }
 
 
@@ -185,7 +184,6 @@ HEADER STYLING
 
 	.container {
 		padding: 0;
-		@include container(100%);
 	}
 
 	h1 {
@@ -384,7 +382,6 @@ FOOTER STYLING
 	.container {
 		border-top: 4px solid darken(white, 15%);
 		padding-top: .5em;
-		@include container(90%);
 	}
 
 	.copy, .footer-links {
