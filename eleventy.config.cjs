@@ -1,11 +1,15 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
     // add the rss plugin mentioned in the docs
     eleventyConfig.addPlugin(pluginRss);
 
+    // ditto, add the syntax highlighting plugin
+    eleventyConfig.addPlugin(syntaxHighlight);
+
     // define a posts collection for all blog posts
-    // this is used for rss
+    // this is also used for rss
     eleventyConfig.addCollection('posts', function (collectionAPI) {
         return collectionAPI.getFilteredByGlob('_posts/*.md')
     });

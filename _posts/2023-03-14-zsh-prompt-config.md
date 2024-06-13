@@ -12,7 +12,7 @@ My bash prompt was pretty simple, it included my current directory, then my git 
 
 Replicating my current directory with color-coding was very easy in zsh. It was actually even easier than in bash, since zsh accepts some strings for colors rather than codepoints. After reading [the zsh prompt expansion docs](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html#Prompt-Expansion) and [this 2019 blog post about customizing your zsh prompt](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/), I ended up with:
 
-```zsh
+```sh
 PROMPT="%B%F{magenta}%1/%f%b 👑 "
 
 ```
@@ -21,7 +21,7 @@ Here I initiate bolded and magenta-colored text (`%B%F{magenta}`), then print on
 
 Next I wanted to replicate the git-related part of my bash prompt. Here zsh is, again, more sophisticated than bash, and has a bunch of basic out-of-the-box git functionality. If you just want to display your branch name and/or dirty state, zsh can do it right out of the box. I found [git's own documentation of how to display git info in the zsh prompt](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh) super helpful, and it also linked directly to [another section of the zsh docs on zsh and version control systems](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information). After some trial and error (and more help from other people's blog posts), I had this:
 
-```zsh
+```sh
 # grab current branch and display in prompt
 # source: https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh
 autoload -Uz vcs_info add-zsh-hook
@@ -45,13 +45,13 @@ This did everything described above (show the git branch and all dirty states us
 
 I'd used this script before, to do the same things in bash, but I hadn't yet installed or used it with zsh. So I explicitly included that in my .zshrc:
 
-```zsh
+```sh
 source ~/.git-prompt.sh
 ```
 
 And then I did something I've honestly never done before, and I went and read that script's whole dang docstring to figure out if there was an easy way to do what I wanted. And there was! Here's the final draft of my prompt, which felt very simple in the end:
 
-```zsh
+```sh
 source ~/.git-prompt.sh
 
 # allow prompt substitution, show dirty state in color (incl. untracked files), define prompt

@@ -26,6 +26,8 @@ There's also definitely something wonky happening with Sass, which worked out of
 
 Update on the above: this definitely isn't everything but Compass was Ruby code that is totally unsupported and no longer works with modern Ruby so I've excised that entirely, but my understanding of CSS and SASS isn't good enough to figure out where it was being used and how extensively. So I've just started with deleting the import. [This blog post](https://jkc.codes/blog/using-sass-with-eleventy/) for using Sass with Eleventy was extremely helpful for setting everything up in the interim.
 
+The last major thing is that I think either the entire template engine for markdown or some of its config is different than what Jekyll used, because posts look mostly fine except for code blocks. The docs were pretty useful on this once I realized [it's a plugin](https://www.11ty.dev/docs/plugins/syntaxhighlight/), but I got there via [yet another blog post](https://nicolashery.com/moving-a-blog-from-jekyll-to-eleventy/#syntax-highlighting), and then I had to go to the Prism docs to figure out file pathing off of one of the CDNs for the theme I wanted.
+
 ### Short List of Final Migration Steps
 
 - add `package.json` and `eleventy.config.cjs` (see above)
@@ -34,3 +36,4 @@ Update on the above: this definitely isn't everything but Compass was Ruby code 
 - delete `config.rb`
 - add `.eleventyignore` to ignore this readme
 - replace my `jekyll-feed` RSS plugin with eleventy's [`rss`](https://www.11ty.dev/docs/plugins/rss/) plugin
+- delete a bunch of js and sass

@@ -8,6 +8,7 @@ Object-oriented programming is the idea that data has its own identity and metho
 
 In practice, object-oriented programming works by creating classes that have variables and methods, then creating instances of that class that store different information in the variables but have similar ways of interacting with it through the methods. You can have a lot of instances of the same class, so a common metaphor is to explain a class as a rubber stamp, and instances of that class like the images created by the rubber stamp. I like to compare classes to the Platonic ideal.* A class is a Platonic ideal of an object, and instances are actual working examples of the class. Like the Platonic ideal of a thing, a class is something you don't usually interact with directly. Instead, you make and then interact with instances of it. So if we use the example of a horse (a common example when explaining the Platonic ideal), you'd have a class Horse, and then individual horse instances of Horse that contain slightly different data, or ideas of what a horse can be. Perhaps your Horse class contains variables for things like age, gender, color or breed, height, etc. Then you could have different instances of Horse with different configurations, such as "a pinto mare" or "a bay yearling" or "a grey stallion." All these individual horses are still instances of Horse, so they all know how to do things that all horses should be able to do, like run. Putting all this together, we could write an example class and instance like this:
 
+```py
 	class Horse(object):
 
 		def __init__(self, age, gender, color):
@@ -20,6 +21,7 @@ In practice, object-oriented programming works by creating classes that have var
 
 	pinto_mare = Horse(6, 'female', 'pinto')
 	pinto_mare.run(4) # "The pinto horse runs 4 miles."
+```
 
 In a real program, you'd probably have a lot more than just one Horse instance. All instances of Horse would know how to run, and possibly jump, and eat, and do other things. Then instead of needing to manually move the horse (which involves knowing a) how to move a horse and b) how to move _this specific_ horse), you'd simply type `pinto_mare.run(4)` or `pinto_mare.walk(1)` and the horse would move itself.
 
