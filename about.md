@@ -1,7 +1,7 @@
 ---
 layout: static
 title: About
-permalink: "about"
+permalink: "/about.html"
 ---
 I'm an infrastructure engineer and two-time [Recurser](https://recurse.com/) (S'14 and S'16) currently on a sabbatical after having most recently worked at Etsy. Some of my favorite things: cats, maple sugar candies, zines about witches and dumplings, Jorge Luis Borges, and unloseable video games as a form of relaxation. I always love to talk about fun wordplay and art coding projects!
 
