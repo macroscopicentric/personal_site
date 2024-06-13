@@ -6,7 +6,10 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     strategy:
       matrix:
         node-version: [21.x]
@@ -27,5 +30,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
+          domain: macroscopicentric.net
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
