@@ -1,10 +1,9 @@
 ---
-title:  "What is Object-Oriented Programming?"
+title:  "Configuration Management for Beginners"
 date:   2016-01-23 16:17:00
 categories: intro_to_programming
 ---
 
-# Configuration Management for Beginners
 ## Using Chef as an Example
 
 ### Who is this blog post meant for?
@@ -52,7 +51,7 @@ Why would you have different environment files? Environment files allow you to b
 Chef has two functional parts. The Chef server stores all of your node and repo data. When you upload cookbook changes, for example, this is where those changes go. The other major part of Chef is chef-client, the daemon that sits on every node and regularly checks into the Chef server to see if there are any cookbook updates relevant to that node. For any updated cookbooks, chef-client will diff the changes between the old version and the new version, and then try to implement the diff. In other words, with Chef, you can make incremental updates to some or all hosts at the same time.
 
 ### Some related concepts:
-### What are some alternatives to Chef?
+#### What are some alternatives to Chef?
 
 There are two other common alternatives to Chef: [Puppet](http://www.puppet.com/) and [Ansible](https://www.ansible.com). You can find a full list of configuration management software [on Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software).
 
@@ -60,7 +59,7 @@ There are two other common alternatives to Chef: [Puppet](http://www.puppet.com/
 
 Exactly what it sounds like! The saving of your configuration, from the creation of your instances in the first place if you're in the cloud (how much memory do they have? how much disk space?) to the software installed on them (which image are you using for this host? what operating system? what software config?), as code in a repository rather than ephemeral values that you edit by hand. Config as code allows you to use version control software to manage it, giving you all the benefits that come with VCS, such as being able to roll back to older versions of the code and tracking who's made what changes to the code and why. [The Wikipedia page on Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) is great if you're looking for more info on this concept.
 
-### Mutable vs. Immutable Infrastructure
+#### Mutable vs. Immutable Infrastructure
 
 Mutable infrastructure describes a system where you can modify existing resources, such as Chef and other configuration management tools (see above). In Chef, you can make changes to already-existing hosts by adding new steps to existing recipes, or adding recipes altogether.
 

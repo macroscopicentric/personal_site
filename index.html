@@ -5,6 +5,7 @@ pagination:
   size: 5
   alias: posts
   reverse: true
+permalink: "{% unless pagination.pageNumber > 0 %}index.html{% endunless %}{% if pagination.pageNumber > 0 %}blog/page{{ pagination.pageNumber | plus: 1 }}{% endif %}"
 ---
 
 <div class="home" id="home">
@@ -21,10 +22,10 @@ pagination:
   <!-- Pagination links -->
   <div class="pagination">
     {% if pagination.href.previous %}
-      <a href="{{ pagination.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
+      <a href="{{ pagination.href.previous | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
     {% endif %}
-    {% if pagination.next_page %}
-      <a href="{{ pagination.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
     {% endif %}
   </div>
 </div>
