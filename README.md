@@ -36,4 +36,6 @@ The last major thing is that I think either the entire template engine for markd
 - delete `config.rb`
 - add `.eleventyignore` to ignore this readme
 - replace my `jekyll-feed` RSS plugin with eleventy's [`rss`](https://www.11ty.dev/docs/plugins/rss/) plugin
+- add _posts.json and a permalink to the about page
 - delete a bunch of js and sass
+install eleventy's syntax highlighting plugin and update my code blocks
