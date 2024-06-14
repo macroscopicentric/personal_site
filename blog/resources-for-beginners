@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Macroscopicentric</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+
+    <!-- Come and get me RSS readers -->
+    <link rel="alternate" type="application/rss+xml" title="Macroscopicentric" href="https://macroscopicentric.net"/>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- External stylesheet for Prism's syntax highlighting -->
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-solarizedlight.css" />
+    <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
+    <link rel="canonical" href="https://macroscopicentric.net/blog/resources-for-beginners">
+</head>
+
+
+<body>
+
+    <div class="header">
+     <div class="container">
+         <h1 class="logo"><a href="/">Macroscopicentric</a></h1>
+         <nav class="nav-collapse">
+             <ul class="noList">
+             
+             <li>
+                 <a href="/index.html">Home</a>
+             </li> 
+            
+             <li>
+                 <a href="/about">About</a>
+             </li> 
+            
+             <li>
+                 <a href="/feed.xml">RSS</a>
+             </li> 
+            
+             </ul>
+         </nav>
+     </div>
+ </div><!-- end .header -->
+
+
+   <div class="content">
+      <div class="container">
+         <div class="post">
+  
+  <h1 class="postTitle">Educational Resources for Beginners in Python</h1>
+  <p class="meta">January 24, 2016</p>
+  
+  <p>This list is mostly Python-specific since that's how I learned to program, but some of these resources are language-agnostic. Feel free to try some out and then drop them if they don't work for you! The important thing is that you're learning, so find a learning tool that fits your style and needs.</p>
+<h2>Websites</h2>
+<p><a href="http://teamtreehouse.com/">Treehouse</a> and <a href="http://www.lynda.com/default.aspx">Lynda</a> are both subscription websites that have tons of educational videos and practice material for you to follow along. I've never used Lynda for this purpose, but Treehouse is beginner-friendly and covers a lot of topics, has forums to ask questions if you get stuck, and has workspaces where you can write and run code on the website instead of needing to store it on your computer. Treehouse also has <a href="http://blog.teamtreehouse.com/">a blog</a> you can see without having an account and might have some helpful information.</p>
+<p>If you need free resources, MOOCs (Massive Open Online Courses) are your friend. Websites like <a href="https://www.khanacademy.org/computing">Khan Academy</a>, <a href="https://www.edx.org/course/subject/computer-science">edX</a>, and <a href="https://www.coursera.org/browse/computer-science?languages=en">Coursera</a> have a bunch of educational videos that are organized into courses. Some courses have a syllabus, homework, and projects. Many have forums where you can ask questions.</p>
+<p><a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a> is a free online resource, although you can pay for a physical book or tutorial videos. Zed Shaw has a very opinionated teaching method, and tends to make you do things before explaining them. This works very well for some people, but not so well for others. (He also has a variety of other <a href="http://learncodethehardway.org/">Learn Code the Hard Way</a> resources for learning Ruby, SQL, C, and regex.)</p>
+<p>If you're comfortable with the basics in Python and can write and use classes and short programs on your own, try going through <a href="https://pymotw.com/3/">Python Module of the Week</a>. It's a website based on a set of blog posts where the author went through each module in Python's standard library. Each post has example usages for the module and its methods, and a lot of people find the organization very helpful.</p>
+<h2>Specific Tutorials/Walkthroughs</h2>
+<p><a href="http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming">A Practical Introduction to Functional Programming</a> by Mary Rose Cook. If you're not sure what functional programming is, check out that post and <a href="https://www.quora.com/What-is-object-oriented-programming?share=1">this Quora answer</a>, and keep in mind that functional programming and object-oriented programming are not a dichotomy. You can use elements of both in the same program! Another of her blog posts, <a href="http://maryrosecook.com/blog/post/my-speech-to-new-hacker-schoolers">&quot;My speech to new Recursers,&quot;</a> includes some great general advice (at the bottom) about what to focus on when learning how to program.</p>
+<p>She also has <a href="http://maryrosecook.com/blog/post/git-in-six-hundred-words">&quot;Git in six hundred words&quot;</a> and an extensive essay called <a href="http://maryrosecook.com/blog/post/git-from-the-inside-out">&quot;Git from the Inside Out,&quot;</a>. These are most helpful if you're already familiar with the most common git commands, such as <code>git commit</code>, <code>git branch</code>, etc, and want to know what git is doing under the hood when you type them. If you just want to figure out how to use git, you might find <a href="https://www.atlassian.com/git/tutorials">Atlassian's git tutorials</a> useful instead.</p>
+<p>Relatedly, if you're confused by how git works, that's okay! <a href="http://stevelosh.com/blog/2013/04/git-koans/">Entire articles</a> have been written on how unintuitive git's interface is. I highly recommend learning the basics of how to use git from the command line and how it works under the hood at some point. But if not knowing git means you're being blocked on writing new programs, feel free to use the desktop client in the meantime. The GitHub team has worked hard to make the desktop client easy to use, so use it if it helps!</p>
+<p>For Javascript, Julie Pagano wrote a really wonderful post titled <a href="http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/">&quot;Javascript Debugging for Beginners.&quot;</a></p>
+<p>If you're ready to build something on your own, building a Twitter bot is usually a good start. There are a lot of resources that can help. Sumana Harihareswara's blog post <a href="http://www.harihareswara.net/sumana/2013/12/5/0">&quot;Fisher-Price's My First Twitter Bot&quot;</a> is a great tutorial in Python. Disclaimer: Twitter bots are a fun and interesting project, but learn from my mistake: make your bot either opt-in (people follow it/tweet at it/etc) or non-interactive. Nobody likes a bot that spams people.</p>
+<h2>Finding a Mentor</h2>
+<p>It's tough to learn how to program without personalized help from a real person. Local meetups are a great way to meet both other beginners and people who can help you. Meetups specifically designed to help beginners are probably your best bet. <a href="http://www.pyladies.com/">Pyladies</a> is an awesome group that focuses on supporting female Python programmers, has a bunch of <a href="http://www.pyladies.com/locations/">locations</a>, and is incredibly beginner-friendly.</p>
+<p>I live in Portland (OR), and there's a group here called <a href="http://www.meetup.com/Mentorship-Saturdays/">Mentorship Saturdays</a> that's open to everyone and aimed at beginners who need coding help or career advice. And although you can use Meetup to find local groups wherever you are, in Portland we also have <a href="http://calagator.org/">Calagator</a>, an open source calendar specifically for tech events.</p>
+<p>Speaking of open source, if you're interested in contributing to an open source project (it's great experience!) but aren't sure how to start, <a href="https://openhatch.org/">Open Hatch</a> is a great website that aims to connect beginners in open source to beginner-friendly open source projects. Open Hatch itself is open source and written in Python, so that's one project you could work on!</p>
+<p>Finally, the Recurse Center has just announced a new initiative called <a href="https://www.recurse.com/blog/99-free-one-on-one-mentorship-for-new-programmers">RC Start</a>, where beginning programmers can sign up for a mentor and receive three 45 min one-on-one sessions (via Skype or in person). Go to the blog post for more info.</p>
+
+
+  <!-- POST NAVIGATION -->
+  <div class="postNav clearfix">
+      
+     
+  </div>
+</div>
+
+      </div>
+   </div><!-- end .content -->
+
+   <div class="footer">
+   <div class="container">
+      <p class="copy">Powered by <a href="https://www.11ty.dev/">Eleventy</a></p>
+
+      <div class="footer-links"> 
+         <ul class="noList"> 
+            
+            
+            <li><a href="https://twitter.com/magpieohmy">
+                  <svg id="twitter" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 30px; width: 30px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1;"></circle>
+                  <path class="inner-shape" style="opacity: 1;" transform="translate(25,25) scale(0.5)" d="M99.001,19.428c-3.606,1.608-7.48,2.695-11.547,3.184c4.15-2.503,7.338-6.466,8.841-11.189 c-3.885,2.318-8.187,4-12.768,4.908c-3.667-3.931-8.893-6.387-14.676-6.387c-11.104,0-20.107,9.054-20.107,20.223 c0,1.585,0.177,3.128,0.52,4.609c-16.71-0.845-31.525-8.895-41.442-21.131C6.092,16.633,5.1,20.107,5.1,23.813 c0,7.017,3.55,13.208,8.945,16.834c-3.296-0.104-6.397-1.014-9.106-2.529c-0.002,0.085-0.002,0.17-0.002,0.255 c0,9.799,6.931,17.972,16.129,19.831c-1.688,0.463-3.463,0.71-5.297,0.71c-1.296,0-2.555-0.127-3.783-0.363 c2.559,8.034,9.984,13.882,18.782,14.045c-6.881,5.424-15.551,8.657-24.971,8.657c-1.623,0-3.223-0.096-4.796-0.282 c8.898,5.738,19.467,9.087,30.82,9.087c36.982,0,57.206-30.817,57.206-57.543c0-0.877-0.02-1.748-0.059-2.617 C92.896,27.045,96.305,23.482,99.001,19.428z"></path>
+                  </svg>
+            </a></li>
+            
+            
+            <li><a href="https://github.com/macroscopicentric">
+                  <svg id="github" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 30px; width: 30px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1;"></circle>
+                  <path class="inner-shape" style="opacity: 1;" transform="translate(25,25) scale(0.5)" d="M50,1C22.938,1,1,22.938,1,50s21.938,49,49,49s49-21.938,49-49S77.062,1,50,1z M79.099,79.099 c-3.782,3.782-8.184,6.75-13.083,8.823c-1.245,0.526-2.509,0.989-3.79,1.387v-7.344c0-3.86-1.324-6.699-3.972-8.517 c1.659-0.16,3.182-0.383,4.57-0.67c1.388-0.287,2.855-0.702,4.402-1.245c1.547-0.543,2.935-1.189,4.163-1.938 c1.228-0.75,2.409-1.723,3.541-2.919s2.082-2.552,2.847-4.067s1.372-3.334,1.818-5.455c0.446-2.121,0.67-4.458,0.67-7.01 c0-4.945-1.611-9.155-4.833-12.633c1.467-3.828,1.308-7.991-0.478-12.489l-1.197-0.143c-0.829-0.096-2.321,0.255-4.474,1.053 c-2.153,0.798-4.57,2.105-7.249,3.924c-3.797-1.053-7.736-1.579-11.82-1.579c-4.115,0-8.039,0.526-11.772,1.579 c-1.69-1.149-3.294-2.097-4.809-2.847c-1.515-0.75-2.727-1.26-3.637-1.532c-0.909-0.271-1.754-0.439-2.536-0.503 c-0.782-0.064-1.284-0.079-1.507-0.048c-0.223,0.031-0.383,0.064-0.478,0.096c-1.787,4.53-1.946,8.694-0.478,12.489 c-3.222,3.477-4.833,7.688-4.833,12.633c0,2.552,0.223,4.889,0.67,7.01c0.447,2.121,1.053,3.94,1.818,5.455 c0.765,1.515,1.715,2.871,2.847,4.067s2.313,2.169,3.541,2.919c1.228,0.751,2.616,1.396,4.163,1.938 c1.547,0.543,3.014,0.957,4.402,1.245c1.388,0.287,2.911,0.511,4.57,0.67c-2.616,1.787-3.924,4.626-3.924,8.517v7.487 c-1.445-0.43-2.869-0.938-4.268-1.53c-4.899-2.073-9.301-5.041-13.083-8.823c-3.782-3.782-6.75-8.184-8.823-13.083 C9.934,60.948,8.847,55.56,8.847,50s1.087-10.948,3.231-16.016c2.073-4.899,5.041-9.301,8.823-13.083s8.184-6.75,13.083-8.823 C39.052,9.934,44.44,8.847,50,8.847s10.948,1.087,16.016,3.231c4.9,2.073,9.301,5.041,13.083,8.823 c3.782,3.782,6.75,8.184,8.823,13.083c2.143,5.069,3.23,10.457,3.23,16.016s-1.087,10.948-3.231,16.016 C85.848,70.915,82.88,75.317,79.099,79.099L79.099,79.099z"></path>
+                  </svg>
+            </a></li>
+             
+            
+         </ul>
+      </div>
+   </div>
+</div><!-- end .footer -->
+
+
+   <!-- Add jQuery and other scripts -->
+<!--
+    Yes I would like to delete this, why are we using jQuery in the
+    year of our lord 2024, but it's doing positioning and font
+    shenanigans and I would like to get the blog working before fussing with aesthetics, and by aesthetics I mean "not using jQuery."
+-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="/assets/js/dropcap.min.js"></script>
+<script src="/assets/js/responsive-nav.min.js"></script>
+<script src="/assets/js/scripts.js"></script>
+
+
+</body>
+
+</html>
