@@ -5,9 +5,10 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "build": "eleventy",
+    "start": "npm run watch:eleventy & npm run watch:sass",
     "watch:eleventy": "eleventy --serve",
-    "watch:sass": "sass assets/scss:_site/assets/css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass"
+    "watch:sass": "sass assets/scss:_site/assets/css --watch"
   },
   "keywords": [],
   "author": "",
